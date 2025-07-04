@@ -15,3 +15,11 @@ iframe {
 button {
   cursor: pointer;
 }
+@keyframes fadeOut {
+  0% { opacity: 1; }
+  90% { opacity: 1; }
+  100% { opacity: 0; visibility: hidden; }
+}
+.animate-fadeOut {
+  animation: fadeOut 4s ease-out forwards;
+}
